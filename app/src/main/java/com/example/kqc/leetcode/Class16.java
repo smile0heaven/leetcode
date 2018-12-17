@@ -78,7 +78,7 @@ public class Class16 {
                 if (init[i] < tar[i])
                     init[i] = init[i]++;
                 else
-                    init[i] = init[i]--;
+                    init[i] = init[i]++;
 
                 while (Arrays.asList(deadends).contains(init.toString())) {
                     init[i + 1] = init[i + 1]++;
